@@ -2,15 +2,15 @@ import requests
 import json
 
 #Create playlist
-def CREATE_PLAYLIST(token,user_id):
+def CREATE_PLAYLIST(token,user_id,name_play):
     req = requests.post(
         'https://api.spotify.com/v1/users/{}/playlists'.format(user_id),
         headers = {
             "Authorization": f"Bearer {token}"
         },
         json ={
-            "name": "YouTube1 Playlist",
-            "description": "Final Test",
+            "name": name_play,
+            "description": "Imported from YouTube",
             "public": False
         }
     )
