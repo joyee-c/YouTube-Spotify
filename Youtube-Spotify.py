@@ -32,7 +32,7 @@ def main():
     print(artist_track)
 # Create new Playlist
     New_playlist = CREATE_PLAYLIST(AUTH_TOKEN,user_id,name_play)
-# GET URI LINKS IN ORDER TO SERACH AND ADD SONGS ON SPOTIFY
+# GET URI LINKS BY SEARCHING FOR THEM.ENABLES US TO ADD SONGS TO SPOTIFY SINCE ONLY URI LINKS CAN BE USED
     uri_list=[]
 
     for artist, song in artist_track.items():
