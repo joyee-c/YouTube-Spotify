@@ -32,7 +32,7 @@ def GET_PLAY():
     request = youtube.playlistItems().list(
         part="snippet,contentDetails",
         maxResults=25,
-        playlistId="PLnkLYOjNrJ1ie8MRRhwkHmv4x2RoHTePk"
+        playlistId="*Get playlist ID*"
     )
     response = request.execute()
     draft = response['items']
