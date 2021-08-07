@@ -1,6 +1,7 @@
-# YouTube-Spotify
-Program that automates creation of playlist on Spotify from a desired youtube playlist.
-It requires the use of Spotify API as well as Google API
+# YouTube To Spotify
+## Description
+* Program that automates creation of playlist on Spotify from a desired youtube playlist.
+* It requires the use of Spotify API as well as Google API
 
 1. YouTube
  -> Get Playlist from YouTube and parse response to get name of artists and name of song
